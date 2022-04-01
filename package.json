@@ -1,0 +1,17 @@
+{
+  "name": "warmhole-protal-bridge-service",
+  "version": "1.0.0",
+  "description": "The serverless node application to communicate with warmholde bridge",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@certusone/wormhole-sdk": "^0.2.3"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.5.0"
+  }
+}
