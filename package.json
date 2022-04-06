@@ -5,12 +5,14 @@
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sls offline"
+    "start": "sls offline --httpPort 3001"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@certusone/wormhole-sdk": "^0.2.3"
+    "@certusone/wormhole-sdk": "^0.2.3",
+    "@improbable-eng/grpc-web-node-http-transport": "^0.15.0",
+    "ethers": "^5.6.2"
   },
   "devDependencies": {
     "serverless-offline": "^8.5.0"
